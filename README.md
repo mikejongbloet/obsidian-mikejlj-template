@@ -1,1 +1,2 @@
-# obdisian-notes
+# obsidian-mikejlj-template
+A sample of my Obsidian setup
