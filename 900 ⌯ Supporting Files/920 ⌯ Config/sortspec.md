@@ -2,7 +2,7 @@
 sorting-spec: |
   target-folder: /
   000
-  
+
   target-folder: 300 ⌯ Journal/340 ⌯ 🔖 Meetings/*
   target-folder: 300 ⌯ Journal/310 ⌯ 🌱 Daily/*
   target-folder: 300 ⌯ Journal/392 ⌯ 📨 Projects
@@ -20,7 +20,6 @@ sorting-spec: |
   🍿 Watch list
   
   target-folder: 500 ⌯ Knowledge Management/510 ⌯ 📚 Literature Notes
-  %
   < a-z by-metadata: category-literature-note
 
   target-folder: 300 ⌯ Journal/391 ⌯ 🕺 People

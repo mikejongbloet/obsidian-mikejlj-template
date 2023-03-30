@@ -1,3 +1,6 @@
+---
+fileClass: doc
+---
 # Overview of pages
 
 ## 000 ⌯ Dashboard
@@ -85,5 +88,22 @@ A topic acts as a map of content and pulls in content based on tags - it pulls i
 ### 710 ⌯ Weeks
 A folder that contains all weekly notes organized by year.
 
-The folder note displays the achievements, areas for improved
+The folder note displays the achievements, areas for improvement and weekly reflections for the past four weeks.
+
 ### 730 ⌯ Months
+A folder that contains all monthly notes organized by year.
+
+The folder note displays the monthly achievements and reflections for the past four weeks.
+
+---
+
+## 900 ⌯ Supporting files
+
+This folder contains all the config files and is omitted from all file queries in the vault.
+
+| Section    | Purpose |
+| -------- | ------- |
+| 910 ⌯ Templates | Stores all the templates for different note types |
+| 920 ⌯ Config | Stores various config like property definitions, sortspec for custom sorting, button templates and matching pattens used in Espanso |
+| 930 ⌯ Assets | Stores images and file uploads |
+| 931 ⌯ Drawings | Stores drawings created in Excalidraw |
