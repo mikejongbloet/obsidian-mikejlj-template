@@ -1,0 +1,58 @@
+{
+  "collapse-filter": true,
+  "search": "path: \"500 ⌯ Knowledge Management\" AND -line:(exclude_from_graph: true)",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "line:(fileClass: resource)",
+      "color": {
+        "a": 1,
+        "rgb": 54783
+      }
+    },
+    {
+      "query": "line:(fileClass: topic)",
+      "color": {
+        "a": 1,
+        "rgb": 16449791
+      }
+    },
+    {
+      "query": "line:(fileClass: Evergreen-Note)",
+      "color": {
+        "a": 1,
+        "rgb": 1409809
+      }
+    },
+    {
+      "query": "line:(fileClass: Atomic-Note)",
+      "color": {
+        "a": 1,
+        "rgb": 11403100
+      }
+    },
+    {
+      "query": "line:(fileClass: Literature-Note)",
+      "color": {
+        "a": 1,
+        "rgb": 16749824
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.1,
+  "nodeSizeMultiplier": 1.0534423828125,
+  "lineSizeMultiplier": 0.7447998046875,
+  "collapse-forces": true,
+  "centerStrength": 0.264044943820225,
+  "repelStrength": 8.87640449438202,
+  "linkStrength": 1,
+  "linkDistance": 56,
+  "scale": 0.20615269752964177,
+  "close": true
+}

@@ -1,0 +1,21 @@
+{
+  "baseFontSize": 21,
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "supercharged_link_show_score_progress",
+    "clean_imbeds_all",
+    "supercharged-links-gen",
+    "supercharged_link_show_fileClass",
+    "supercharged_link_show_score_v2",
+    "progressbar",
+    "supercharged_link_show_status",
+    "custom-admonitions.c9c6cb",
+    "supercharged_link_show_score",
+    "snippets"
+  ],
+  "theme": "obsidian",
+  "accentColor": "",
+  "translucency": false,
+  "nativeMenus": false,
+  "showViewHeader": true
+}

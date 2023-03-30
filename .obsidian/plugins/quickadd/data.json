@@ -1,0 +1,857 @@
+{
+  "choices": [
+    {
+      "id": "c9b09e9b-b894-4159-91e6-3f799d9777ff",
+      "name": "Capture",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "aaa515ba-d836-41c6-b790-c9eb3956cb13",
+          "name": "📥 Capture task",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "07d9bb15-0a97-487f-b79d-3e8a55af67df",
+              "name": "Add to task list",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "300 ⌯ Journal/393 ⌯ ✅ Tasks/Task list.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "- [ ] #task {{NAME}} 📅 {{VDATE:Due, YYYY-MM-DD}} {{VALUE: ,⏫,🔼,🔽}}\n"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "daa12fbc-1676-4ea2-b16b-cbe5d446a621",
+              "name": "Capture in place",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "- [ ] #task {{NAME}} 📅 {{VDATE:Due, YYYY-MM-DD}} {{VALUE: ,⏫,🔼,🔽}}"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            }
+          ]
+        },
+        {
+          "id": "3bca14e2-79fa-406d-a1e0-82d21083cd90",
+          "name": "💭  Capture thought",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "300 ⌯ Journal/310 ⌯ 🌱 Daily/{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "900 ⌯ Supporting Files/910 ⌯ Templates/Periodic_Note/New-Day"
+          },
+          "format": {
+            "enabled": true,
+            "format": "* <small>**[{{DATE:HH:mm}}]**</small>[💭 Thought:: {{VALUE}}]\\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "# 💭 Daily log",
+            "insertAtEnd": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "56dba10f-0ed7-4462-a64c-db0055d8d27c",
+          "name": "💡 Capture idea",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "300 ⌯ Journal/310 ⌯ 🌱 Daily/{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "900 ⌯ Supporting Files/910 ⌯ Templates/Periodic_Note/New-Day.md"
+          },
+          "format": {
+            "enabled": true,
+            "format": "* <small>**[{{DATE:HH:mm}}]**</small>[💡 Idea:: {{VALUE}}]\\n "
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "# 💭 Daily log",
+            "insertAtEnd": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "27f04855-acdf-491c-80b1-5135bb8cabea",
+          "name": "🍃 Capture reflection",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "300 ⌯ Journal/310 ⌯ 🌱 Daily/{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "900 ⌯ Supporting Files/910 ⌯ Templates/Periodic_Note/New-Day"
+          },
+          "format": {
+            "enabled": true,
+            "format": "* <small>**[{{DATE:HH:mm}}]**</small>[🍃 Reflection:: {{VALUE}}]\\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "# 💭 Daily log",
+            "insertAtEnd": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "8c5fef6e-23f2-45be-9150-ecfd1cdc54ed",
+          "name": "🍿 Add to watch list",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "300 ⌯ Journal/310 ⌯ 🌱 Daily/{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "900 ⌯ Supporting Files/910 ⌯ Templates/Periodic_Note/New-Day.md"
+          },
+          "format": {
+            "enabled": true,
+            "format": "- [ ] {{VALUE}} #to-watch"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "# 💭 Daily log",
+            "insertAtEnd": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "0bfce984-dfd5-4be0-b64a-51479209d05b",
+          "name": "📘 Add to reading list",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "6d1c741d-bfc2-48b5-a471-696e10ce59d4",
+              "name": "Article",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "300 ⌯ Journal/310 ⌯ 🌱 Daily/{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": true,
+                "createWithTemplate": true,
+                "template": "900 ⌯ Supporting Files/910 ⌯ Templates/Periodic_Note/New-Day.md"
+              },
+              "format": {
+                "enabled": true,
+                "format": "- [ ] [{{VALUE:Title}}]({{VALUE:URL}}) #to-read #📝\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "# 💭 Daily log",
+                "insertAtEnd": true,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "35dc734b-db64-4b17-97c7-507871102423",
+              "name": "Book",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "300 ⌯ Journal/310 ⌯ 🌱 Daily/{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": true,
+                "createWithTemplate": true,
+                "template": "900 ⌯ Supporting Files/910 ⌯ Templates/Periodic_Note/New-Day.md"
+              },
+              "format": {
+                "enabled": true,
+                "format": "- [ ] {{VALUE}} #to-read #📙\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "# 💭 Daily log",
+                "insertAtEnd": true,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            }
+          ],
+          "collapsed": false
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "ae4f568c-1526-4362-909d-6a8cc2b60045",
+      "name": "New",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "203d44f6-003d-4939-abe8-f90be085d56a",
+          "name": "📝 New Atomic note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Atomic-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/530 ⌯ 📝 Atomic Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "c81282c2-d979-4cca-baee-6077823c6302",
+          "name": "✏️ New Basic Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 ⌯ Journal/330 ⌯ ✏️ Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "f0df751c-bc71-46c0-8114-1aca34864d63",
+          "name": "🌲 New Evergreen",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Evergreen-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/550 ⌯ 🌲 Evergreen Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "b6d017ab-4c8e-4ae6-8a9f-e8795e3100cb",
+          "name": "📚 New Literature",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Literature-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/510 ⌯ 📚 Literature Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "3dcf253a-1419-4270-b4e3-d647af99f312",
+          "name": "🔖 New Meeting",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Meeting.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD}} — {{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 ⌯ Journal/340 ⌯ 🔖 Meetings"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "d94d1c7d-18f7-4b52-aa58-0b6db3c83d44",
+          "name": "🕺 New Person",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Person.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 ⌯ Journal/391 ⌯ 🕺 People"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "d51fd188-ac78-4bd1-86c8-5b153dd9e5fe",
+          "name": "📨 New Project",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Project.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 ⌯ Journal/392 ⌯ 📨 Projects"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "dcd4b658-f6d2-47be-8053-66f9742da163",
+          "name": "🛠️ New Resource",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Resource.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/520 ⌯ 🛠️ Resources"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "7e83cb0d-2b2b-4169-aad5-651799be7acb",
+          "name": "🧵 New Topic",
+          "type": "Template",
+          "command": true,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Topic.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/570 ⌯ 🧵 Topics"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "77ed1532-52f8-46f9-ab98-ed82cbc98f39",
+      "name": "Append",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "9c11152f-2426-4967-973c-3efc152cddc7",
+          "name": "📝 Append Atomic note",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Atomic-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/530 ⌯ 📝 Atomic Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "cd99674a-29d3-475b-a820-0bb012190034",
+          "name": "✏️ Append Basic Note",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 ⌯ Journal/330 ⌯ ✏️ Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "ac7881e4-7ea6-4ba7-a980-6ae14b722824",
+          "name": "🌲 Append Evergreen",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Evergreen-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/550 ⌯ 🌲 Evergreen Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "8a7c3d41-9b57-457d-b7cd-03cb6df3be4d",
+          "name": "📚 Append Literature",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Literature-Note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/510 ⌯ 📚 Literature Notes"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "2e16eae5-febf-40c0-b50f-8c8f3279bb2f",
+          "name": "🔖 Append Meeting",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Meeting.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYY}}/{{DATE:MM-MMMM}}/{{DATE:YYYY-MM-DD}} — {{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 ⌯ Journal/340 ⌯ 🔖 Meetings"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "6078dd15-5539-4bc9-937e-4171de983ea5",
+          "name": "🕺 Append Person",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Person.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 ⌯ Journal/391 ⌯ 🕺 People"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "1f3b55fb-edc9-4a64-8cd8-36c9f37eed69",
+          "name": "📨 Append Project",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Project.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300 ⌯ Journal/392 ⌯ 📨 Projects"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "0dcaafe7-da8b-4e03-b7e6-78b3e83c228d",
+          "name": "🛠️ Append Resource",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Resource.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/520 ⌯ 🛠️ Resources"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        },
+        {
+          "id": "44f513c6-85a1-477d-9103-7ef23e824a44",
+          "name": "🧵 Append Topic",
+          "type": "Template",
+          "command": false,
+          "templatePath": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Topic.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{NAME}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "500 ⌯ Knowledge Management/570 ⌯ 🧵 Topics"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "setFileExistsBehavior": true,
+          "fileExistsMode": "Increment the file name"
+        }
+      ],
+      "collapsed": false
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "0.16.0",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

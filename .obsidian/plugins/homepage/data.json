@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "defaultNote": "000 ⌯ Dashboard",
+  "useMoment": false,
+  "momentFormat": "YYYY-MM-DD",
+  "workspace": "Home",
+  "workspaceEnabled": false,
+  "openOnStartup": true,
+  "hasRibbonIcon": true,
+  "openMode": "Keep open notes",
+  "manualOpenMode": "Keep open notes",
+  "view": "Reading view",
+  "revertView": true,
+  "refreshDataview": false,
+  "autoCreate": true,
+  "autoScroll": false,
+  "pin": false
+}

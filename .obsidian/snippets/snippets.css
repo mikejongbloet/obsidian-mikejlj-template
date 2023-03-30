@@ -1,0 +1,363 @@
+.mod-header .inline-title,
+.cm-sizer .inline-title {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #666;
+}
+
+.mod-header .inline-title::before,
+.cm-sizer .inline-title::before {
+    content: "🔸 ";
+}
+
+body,
+.theme-dark,
+body.theme-dark.is-mobile {
+    --background-primary: #131313;
+    --list-spacing: 0.3em;
+    --h2-color: #f49967;
+    --h3-color: #f6a984;
+    --h4-color: #f9baa1;
+    --h5-color: #fccabe;
+    --h6-color: #ffdbdb;
+    --strong-color: #fce8be;
+    --em-color: #fce8be;
+    --tag-size: 0.75em;
+    --tag-background: #9f236a;
+    --line-height-normal: 1.6em;
+    --font-text-size: 22px;
+    --font-text-theme: 'Source Serif Pro', serif;
+    --font-editor-theme: 'Source Serif Pro', serif;
+    --font-monospace-theme: 'JetBrains Mono', 'Fira Code', Menlo, SFMono-Regular, Consolas, 'Roboto Mono', monospace;
+    --font-interface-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Ubuntu, sans-serif;
+    --font-editor: var(--font-editor-override), var(--font-text-override), var(--font-editor-theme);
+    --h1-font: 'Playfair Display', serif;
+    --h2-font: 'Playfair Display', serif;
+    --h3-font: 'Playfair Display', serif;
+    --h4-font: 'Playfair Display', serif;
+    --h5-font: 'Playfair Display', serif;
+    --h6-font: 'Playfair Display', serif;
+    /* Misc */
+    --checkbox-radius: 30%;
+    --callout-padding: 24px 32px;
+}
+
+body .list-view-ul li {
+    --list-spacing: 0em;
+}
+
+.table-view-table>tbody>tr>td,
+.markdown-rendered tbody>tr>td {
+    vertical-align: top;
+    padding: 8px 8px;
+    font-size: 0.9em;
+    min-width: 140px;
+}
+
+.table-view-table>thead>tr>th,
+.markdown-rendered thead>tr>th {
+    vertical-align: top;
+    padding: 12px 8px;
+    font-size: 1em;
+}
+
+.markdown-rendered thead>tr>th,
+.markdown-rendered thead tr>th:nth-child(2n+2) {
+    background: #131619;
+}
+
+.markdown-rendered tbody tr:nth-child(2n+2)>td {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.block-language-dataview,
+.block-language-dataviewjs {
+    overflow-x: scroll;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    background: none;
+}
+
+.block-language-dataview table,
+.block-language-dataviewjs table,
+.markdown-rendered table {
+    border-collapse: collapse;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    width: 100%;
+    margin: 16px 0px 4px;
+}
+
+.nav-folder.alx-folder-with-note>.nav-folder-title>.nav-folder-title-content {
+    text-decoration-line: none;
+}
+
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6 {
+    margin: 16px 0 8px;
+}
+
+.markdown-rendered h2::before,
+.markdown-rendered h3::before,
+.markdown-rendered h4::before,
+.markdown-rendered h5::before,
+.markdown-rendered h6::before {
+    content: "⌯ "
+}
+
+.markdown-rendered h2::after,
+.markdown-rendered h3::after,
+.markdown-rendered h4::after,
+.markdown-rendered h5::after,
+.markdown-rendered h6::after {
+    content: " ⌯"
+}
+
+p {
+    margin: 8px 0px 16px;
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
+.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+    content: "\200b";
+    border-left: 1px dotted #f49967;
+}
+
+body:not(.default-font-color) .markdown-preview-view blockquote,
+body:not(.default-font-color) span.cm-quote.cm-quote-1 {
+    color: #fccabe;
+}
+
+.markdown-preview-view p,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6,
+.markdown-preview-view ul,
+.markdown-preview-view ol,
+.markdown-preview-view blockquote,
+.admonition-parent {
+    /* max-width: 680px; */
+    margin: 8px auto 16px;
+}
+
+.align-center {
+    display: block;
+    text-align: center;
+}
+
+.align-right {
+    display: block;
+    text-align: right;
+}
+
+.align-left {
+    display: block;
+    text-align: left;
+}
+
+.dataview.inline-field-key {
+    margin: 0px 0px 0px 4px;
+    padding: 4px 8px;
+    font-family: var(--font-text);
+    background: rgba(255, 255, 255, 0.12);
+    font-size: 0.6em;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.dataview.inline-field-value {
+    font-family: var(--font-text);
+    background: none;
+    padding: 0px 8px
+}
+
+.table-view-table td {
+    line-height: 1.4em;
+}
+
+small strong {
+    font-size: 0.8em;
+    color: rgb(209, 79, 120) !important;
+}
+
+.markdown-preview-view {
+    padding-bottom: 100px;
+}
+
+.theme-dark button.button-default {
+    background: #a51864;
+    border: none;
+    padding: 8px 24px 10px 20px;
+    height: auto;
+    margin: 16px 0px 8px;
+    font-size: 0.8em;
+    font-weight: 600;
+    box-shadow: 0 2px 2px var(--button-box-shadow, rgba(0, 0, 0, 1)), 0 4px 4px var(--button-box-shadow, rgba(0, 0, 0, 0.22));
+    font-family: 'Lato', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.theme-dark button.button-default:hover {
+    background: #cd3687;
+    z-index: 100;
+    box-shadow: 0 1px 1px var(--button-box-shadow, rgba(0, 0, 0, 0.5));
+    transform: translate3d(1px, 1px, 0px);
+    cursor: pointer;
+}
+
+button.button-inline {
+    padding: 4px 8px;
+    font-family: 'Lato', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.65em;
+    background-color: #762091;
+    letter-spacing: 0.75px;
+}
+
+button.button-inline:hover {
+    z-index: 100;
+    box-shadow: 0 1px 1px var(--button-box-shadow, rgba(0, 0, 0, 0.5));
+    transform: translate3d(1px, 1px, 0px);
+    cursor: pointer;
+    background-color: #8a2da8;
+}
+
+.markdown-rendered hr {
+    border-top-style: dashed;
+}
+
+.cm-s-obsidian span.cm-highlight,
+.markdown-rendered mark {
+    padding: 0px 4px;
+    background: rgb(255, 0, 200, 0.38);
+}
+
+.markdown-rendered .internal-link {
+    text-decoration: none;
+}
+
+@media (hover: hover) {
+    .markdown-rendered .internal-link:hover {
+        background: rgba(255, 255, 255, 0.1);
+        text-decoration: none;
+    }
+}
+
+.callout p {
+    margin: 16px 0px 0px;
+}
+
+body:not(.default-font-color) .markdown-preview-view blockquote,
+body:not(.default-font-color) span.cm-quote.cm-quote-1 {
+    font-style: normal;
+    color: #dadada;
+}
+
+body:not(.default-font-color) .markdown-preview-view blockquote {
+    border-left: 4px solid #f49967;
+    padding: 16px 24px 16px 24px;
+    background: rgba(255, 255, 255, 0.03)
+}
+
+.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title {
+    color: #c19c71;
+    font-weight: 600 !important;
+}
+
+.task-list-item .tasks-backlink {
+    font-size: 0.75em;
+    position: relative;
+    top: -1px;
+}
+
+.task-list-item .tasks-edit {
+    height: 0.6em;
+    width: 0.6em;
+    margin-left: 0.3em;
+}
+
+.task-list-item .tasks-edit:hover {
+    background-color: #79a9ec;
+}
+
+.task-list-item .tasks-backlink a {
+    overflow: hidden;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    padding: 2px 1px;
+    vertical-align: middle;
+    padding-right: 0px !important;
+}
+
+.markdown-preview-view .task-list-item-checkbox {
+    top: 0.3em;
+}
+
+ul>li.task-list-item {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
+    line-height: 1.2em;
+    padding-top: 0px;
+    margin-bottom: 8px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
+    padding-bottom: 8px;
+    position: relative;
+    display: block;
+}
+
+.block-language-tasks ul>li.task-list-item {
+    padding-bottom: 24px;
+}
+
+ul>li.task-list-item li.task-list-item {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding-bottom: 8px;
+}
+
+ul>li.task-list-item .tasks-backlink {
+    font-size: 0.6em;
+    top: auto;
+    position: absolute;
+    left: 0px;
+    bottom: 8px;
+    height: auto;
+    line-height: 1em;
+}
+
+h4.tasks-group-heading p {
+    display: inline;
+}
+
+li.task-list-item a.tag {
+    padding: 3px 6px 2px;
+    border-radius: 4px;
+    background: #3b47a0;
+    font-size: 0.7em;
+    position: relative;
+    top: -1px;
+}
+
+.is-live-preview span.cm-def.cm-hmd-frontmatter,
+.is-live-preview span.cm-hmd-frontmatter {
+    font-size: 0.7em;
+    opacity: 0.4;
+}
+
+.daily-note-viewer h1,
+.daily-note-viewer br {
+    display: none;
+}

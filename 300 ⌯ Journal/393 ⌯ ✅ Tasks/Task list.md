@@ -1,0 +1,3 @@
+- [x] #task Add meetings as a note type ✅ 2023-03-27
+- [x] #task Create scratchpad under 'Notes' ✅ 2023-03-28
+- [x] #task Write a 'Random note viewer' function ✅ 2023-03-29

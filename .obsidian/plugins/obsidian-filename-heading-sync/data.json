@@ -1,0 +1,7 @@
+{
+  "userIllegalSymbols": [],
+  "ignoredFiles": {},
+  "ignoreRegex": "900 ⌯ Supporting Files|README|docs/docs",
+  "useFileOpenHook": false,
+  "useFileSaveHook": false
+}

@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "640dcf9556ec11a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb47d76bc98c952a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/docs/sc_periodic_review.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3994a8a1c8455bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6efee1c71935b83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20e3c5843d3803fc",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "815327c3286132db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d669524f426ed5c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23c7e2b1c9374a5d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 291
+  },
+  "right": {
+    "id": "f55ad70156be8b3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad0ab8a9794d118a",
+        "type": "tabs",
+        "dimension": 50.9493670886076,
+        "children": [
+          {
+            "id": "60a7117cd3ff3e9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/docs/sc_periodic_review.md"
+              }
+            }
+          },
+          {
+            "id": "852114cbb56a6279",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0af2e0571f7677f2",
+        "type": "tabs",
+        "dimension": 49.0506329113924,
+        "children": [
+          {
+            "id": "b9a918f0d8c5c0ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/docs/sc_periodic_review.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2ffccce8a5c2920a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 341
+  },
+  "active": "eb47d76bc98c952a",
+  "lastOpenFiles": [
+    "docs/docs/sc_knowledge_management.md",
+    "docs/docs/sc_goal_management.md",
+    "docs/docs/sc_journal.md",
+    "docs/docs/ref16_outside_world.md",
+    "docs/docs/ref15_project_implementation.md",
+    "docs/docs/ref14_periodic_review.md",
+    "docs/docs/ref13_knowledge_management.md",
+    "docs/docs/ref12_journal.md",
+    "docs/docs/ref11_goal_management.md",
+    "100_Goal_Management/171_📽Video_Projects/171_📽Video_Projects.md"
+  ]
+}

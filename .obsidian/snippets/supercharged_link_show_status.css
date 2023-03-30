@@ -1,0 +1,31 @@
+    a.internal-link[data-link-status$="🟢 Active"]::after {
+    content: " 🟢";
+    font-size: 12px
+}
+
+a.internal-link[data-link-status$="🟠 On-hold"]::after {
+    content: " 🟠";
+    font-size: 12px
+}
+
+a.internal-link[data-link-status$="✨ Future"]::after {
+    content: " ✨";
+    font-size: 12px
+}
+
+a.internal-link[data-link-status$="🎉 Complete"]::after {
+    content: " 🎉";
+    font-size: 12px
+}
+
+a.internal-link[data-link-status$="🗑️ Abandoned"]::after {
+    content: " 🗑️";
+    font-size: 12px
+}
+
+.nav-folder .nav-file-title-content:not([data-link-path*="900 ⌯ Supporting Files"])[data-link-fileclass="literature-note"][data-link-reviewed="n"]::before,
+.nav-folder .nav-file-title-content:not([data-link-path*="900 ⌯ Supporting Files"])[data-link-fileclass="meeting-minute"][data-link-reviewed="n"]::before,
+.nav-folder .nav-file-title-content:not([data-link-path*="900 ⌯ Supporting Files"])[data-link-fileclass="resource"][data-link-reviewed="n"]::before,
+.nav-folder .nav-file-title-content:not([data-link-path*="900 ⌯ Supporting Files"])[data-link-fileclass="atomic-note"][data-link-reviewed="n"]::before {
+    content: "∙ ";
+    font-size: 12px

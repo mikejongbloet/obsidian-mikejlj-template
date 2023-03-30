@@ -1,0 +1,10 @@
+{
+	"id": "tasks-packrat-plugin",
+	"name": "Packrat",
+	"version": "1.1.0",
+	"minAppVersion": "0.12.0",
+	"description": "Process completed recurring Tasks",
+	"author": "Thomas Herden",
+	"authorUrl": "https://github.com/therden",
+	"isDesktopOnly": false
+}

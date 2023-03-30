@@ -1,0 +1,13 @@
+{
+  "Filename": "310 ⌯ 🌱 Daily",
+  "Folder": "300 ⌯ Journal/310 ⌯ 🌱 Daily",
+  "NewPane": true,
+  "Beginning": "---\nalias: 🌱 Journal Notes\ncssclass: daily-note-viewer\nbanner: \"https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80\"\nbanner_icon: 🌱\nbanner_y: 0.664\n---\n# 310 ⌯ 🌱 Daily\n\n```button\nname 🌱 Open Daily Note\ntype command\naction Periodic Notes: Open daily note\n```\n\n## Last 14 days",
+  "Heading": "🧘 Reflections",
+  "Spacing": 0,
+  "Filter": "recent",
+  "Future": false,
+  "Quantity": 14,
+  "Start": "",
+  "End": ""
+}

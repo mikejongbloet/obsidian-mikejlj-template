@@ -1,0 +1,66 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "900 ⌯ Supporting Files/910 ⌯ Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "300 ⌯ Journal/392 ⌯ 📨 Projects",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Project.md"
+    },
+    {
+      "folder": "500 ⌯ Knowledge Management/530 ⌯ 📝 Atomic Notes",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Atomic-Note.md"
+    },
+    {
+      "folder": "500 ⌯ Knowledge Management/510 ⌯ 📚 Literature Notes",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Literature-Note.md"
+    },
+    {
+      "folder": "500 ⌯ Knowledge Management/550 ⌯ 🌲 Evergreen Notes",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Evergreen-Note.md"
+    },
+    {
+      "folder": "500 ⌯ Knowledge Management/570 ⌯ 🧵 Topics",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Topic.md"
+    },
+    {
+      "folder": "300 ⌯ Journal/340 ⌯ 🔖 Meetings",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Meeting.md"
+    },
+    {
+      "folder": "300 ⌯ Journal/391 ⌯ 🕺 People",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Person.md"
+    },
+    {
+      "folder": "500 ⌯ Knowledge Management/520 ⌯ 🛠️ Resources",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Resource.md"
+    },
+    {
+      "folder": "300 ⌯ Journal/330 ⌯ ✏️ Notes",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Note.md"
+    },
+    {
+      "folder": "100 ⌯ Drafts",
+      "template": "900 ⌯ Supporting Files/910 ⌯ Templates/New-Unknown-Note.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": false
+}

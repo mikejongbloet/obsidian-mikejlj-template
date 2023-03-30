@@ -1,0 +1,10 @@
+
+a.internal-link[data-link-score$="xxxx"]::after{
+    content: " ⭑";
+    color: gold
+}
+a.internal-link[data-link-score$="xxxxx"]::after{
+    content: " ⭑⭑";
+    color: gold
+}
+

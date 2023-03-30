@@ -1,0 +1,6 @@
+{
+  "deletion_trigger": "%%delete%%",
+  "bottom_trigger": "%%done_end%%",
+  "archive_trigger": "%%archive%%",
+  "archive_filepath": "300 ⌯ Journal/393 ⌯ ✅ Tasks/Archived.md"
+}

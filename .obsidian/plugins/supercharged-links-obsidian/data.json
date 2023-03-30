@@ -1,0 +1,22 @@
+{
+  "targetAttributes": [
+    "score",
+    "fileClass",
+    "status",
+    "reviewed"
+  ],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [],
+  "presetFields": [],
+  "displayFieldsInContextMenu": false,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "z_config/SuperCharged_Link_fileClass/"
+}

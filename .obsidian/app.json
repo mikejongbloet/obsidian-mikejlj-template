@@ -1,0 +1,31 @@
+{
+  "legacyEditor": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "100 ⌯ Drafts",
+  "attachmentFolderPath": "900 ⌯ Supporting Files/930 ⌯ Assets",
+  "strictLineBreaks": false,
+  "livePreview": true,
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en-US"
+  ],
+  "fileSortOrder": "alphabetical",
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "mobilePullAction": "command-palette:open",
+  "trashOption": "local",
+  "userIgnoreFilters": [
+    "docs/",
+    "900 ⌯ Supporting Files/"
+  ],
+  "spellcheck": true,
+  "defaultViewMode": "preview"
+}

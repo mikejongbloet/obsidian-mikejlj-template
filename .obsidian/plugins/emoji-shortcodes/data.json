@@ -1,0 +1,14 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":smile:",
+    ":screwdriver:",
+    ":tada:",
+    ":joy:",
+    ":bald_man:",
+    ":100:"
+  ]
+}
